@@ -14,6 +14,7 @@ const navSlide = () => {
       }s`;
     }
   });
+  burger.classList.toggle("toggle");
 };
 
 burger.addEventListener("click", navSlide);
